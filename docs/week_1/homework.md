@@ -6,7 +6,7 @@
 
 ## Задачи по ДЗ на первую неделю
 
-- Сгенерировать `.pyi` стабы для проекта [boltons](https://github.com/mahmoud/boltons) 
+- Сгенерировать `.pyi` stabs для проекта [boltons](https://github.com/mahmoud/boltons)
     - [x] так как там много всего, следует сконцентрироваться на одном [файле](https://github.com/mahmoud/boltons/blob/master/boltons/dictutils.py)
 - Можно воспользоваться `stubgen` для создания изначального скелета, можно полностью ручками
   - Для проверки корректности, запускаем:
