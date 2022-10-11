@@ -2,7 +2,7 @@
 
 !!! info "Автор(ы)"
 
-    - [Kosarevsky Dmitry](https://github.com/dKosarevsky)
+    - [Никита Соболев](https://github.com/sobolevn)
 
 - [Backports typing объектов для старых версий Python](https://pypi.org/project/typing-extensions/)
 - [Тестирование аннотаций](https://mypy.readthedocs.io/en/stable/stubtest.html)

@@ -2,7 +2,7 @@
 
 !!! info "Автор(ы)"
 
-    - [Kosarevsky Dmitry](https://github.com/dKosarevsky)
+    - [Никита Соболев](https://github.com/sobolevn)
 
 ## Задачи по ДЗ на первую неделю
 
