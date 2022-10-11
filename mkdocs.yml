@@ -1,0 +1,135 @@
+site_name: Python Typing Summary
+site_url: https://dKosarevsky.github.io/py-typing/
+copyright: © 2022 kosarevsky
+
+repo_name: dKosarevsky/py-typing
+repo_url: https://github.com/dKosarevsky/py-typing
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+
+  static_templates:
+    - 404.html
+
+  font:
+    text: Ubuntu
+    code: JetBrains Mono
+
+  favicon: assets/logo.png
+  logo: assets/logo.png
+
+  language: ru
+  features:
+    - announce.dismiss
+
+    - content.code.annotate
+    - content.tabs.link
+
+    - header.autohide
+
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
+
+    - search.suggest
+    - search.highlight
+    - search.share
+
+  palette:
+    scheme: slate
+    primary: black
+    accent: indigo
+
+plugins:
+  - search:
+      lang:
+        - en
+        - ru
+  - minify:
+      minify_html: true
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     fallback_to_build_date: true
+  #     type: date
+  - glightbox
+
+
+extra:
+  generator: false
+  # analytics:
+  #   provider: google
+  #   property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dKosarevsky/py-typing
+    # - icon: fontawesome/brands/twitter
+    #   link: https://twitter.com/kosarevsky
+
+markdown_extensions:
+
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - главная:
+    - index.md
+    - authors.md
+    - содействие: https://github.com/dKosarevsky/py-typing/blob/main/contributing.md
+    - лицензия: https://github.com/dKosarevsky/py-typing/blob/main/license
+  - неделя 1:
+    - week_1/index.md
+    - конспект: week_1/summary.md
+    - полезные материалы: week_1/materials.md
+    - домашнее задание: week_1/homework.md
+  - неделя 2:
+    - week_2/index.md
+  - неделя 3:
+    - week_3/index.md
